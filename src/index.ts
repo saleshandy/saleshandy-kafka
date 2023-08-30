@@ -1,4 +1,3 @@
-// export public api from here
-// for example:
-// export * from './decorators';
-export * from './test';
+export { KafkaModule } from './kafka/kafka.module';
+export * from './contants/mode';
+export { KafkaConfiguration } from './types/kafka-configuration';
